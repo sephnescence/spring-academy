@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.129s</div>
+<div class="counter">0.001s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">contextLoads()</td>
-<td class="success">0.129s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,16 +87,8 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>20:49:24.813 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [CashCardApplicationTests]: using SpringBootContextLoader
-20:49:24.816 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [example.cashcard.CashCardApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-20:49:24.816 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [example.cashcard.CashCardApplicationTests]: CashCardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-20:49:24.823 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [CashCardApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
-20:49:24.845 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/Users/blaketaylor/Library/Code/spring-academy/build/classes/java/main/example/cashcard/CashCardApplication.class]
-20:49:24.845 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration example.cashcard.CashCardApplication for test class example.cashcard.CashCardApplicationTests
-20:49:24.870 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
-20:49:24.871 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-20:49:24.871 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [CashCardApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
-20:49:24.872 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [CashCardApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+<pre>2023-03-30T21:22:09.146+10:00  INFO 24228 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [example.cashcard.CashCardApplicationTests]: CashCardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-30T21:22:09.147+10:00  INFO 24228 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration example.cashcard.CashCardApplication for test class example.cashcard.CashCardApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -106,9 +98,9 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.0.5)
 
-2023-03-30T20:49:24.956+10:00  INFO 21845 --- [    Test worker] e.cashcard.CashCardApplicationTests      : Starting CashCardApplicationTests using Java 20 with PID 21845 (started by blaketaylor in /Users/blaketaylor/Library/Code/spring-academy)
-2023-03-30T20:49:24.956+10:00  INFO 21845 --- [    Test worker] e.cashcard.CashCardApplicationTests      : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2023-03-30T20:49:25.288+10:00  INFO 21845 --- [    Test worker] e.cashcard.CashCardApplicationTests      : Started CashCardApplicationTests in 0.402 seconds (process running for 0.754)
+2023-03-30T21:22:09.161+10:00  INFO 24228 --- [    Test worker] e.cashcard.CashCardApplicationTests      : Starting CashCardApplicationTests using Java 20 with PID 24228 (started by blaketaylor in /Users/blaketaylor/Library/Code/spring-academy)
+2023-03-30T21:22:09.161+10:00  INFO 24228 --- [    Test worker] e.cashcard.CashCardApplicationTests      : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-03-30T21:22:09.381+10:00  INFO 24228 --- [    Test worker] e.cashcard.CashCardApplicationTests      : Started CashCardApplicationTests in 0.23 seconds (process running for 1.023)
 </pre>
 </span>
 </div>
@@ -120,7 +112,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.6.1</a> at 30 Mar 2023, 8:49:25 pm</p>
+<a href="http://www.gradle.org">Gradle 7.6.1</a> at 30 Mar 2023, 9:22:09 pm</p>
 </div>
 </div>
 </body>
