@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="example.cashcard.CashCardApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-30T11:22:09" hostname="Blakes-MBP-2.modem" time="0.001">
+<testsuite name="example.cashcard.CashCardApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-01T07:43:28" hostname="Blakes-MBP-2.modem" time="0.002">
   <properties/>
-  <testcase name="contextLoads()" classname="example.cashcard.CashCardApplicationTests" time="0.001"/>
-  <system-out><![CDATA[2023-03-30T21:22:09.146+10:00  INFO 24228 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [example.cashcard.CashCardApplicationTests]: CashCardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2023-03-30T21:22:09.147+10:00  INFO 24228 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration example.cashcard.CashCardApplication for test class example.cashcard.CashCardApplicationTests
+  <testcase name="contextLoads()" classname="example.cashcard.CashCardApplicationTests" time="0.002"/>
+  <system-out><![CDATA[2023-04-01T17:43:28.592+10:00  INFO 28420 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [example.cashcard.CashCardApplicationTests]: CashCardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-04-01T17:43:28.593+10:00  INFO 28420 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration example.cashcard.CashCardApplication for test class example.cashcard.CashCardApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,9 +13,9 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.0.5)
 
-2023-03-30T21:22:09.161+10:00  INFO 24228 --- [    Test worker] e.cashcard.CashCardApplicationTests      : Starting CashCardApplicationTests using Java 20 with PID 24228 (started by blaketaylor in /Users/blaketaylor/Library/Code/spring-academy)
-2023-03-30T21:22:09.161+10:00  INFO 24228 --- [    Test worker] e.cashcard.CashCardApplicationTests      : No active profile set, falling back to 1 default profile: "default"
-2023-03-30T21:22:09.381+10:00  INFO 24228 --- [    Test worker] e.cashcard.CashCardApplicationTests      : Started CashCardApplicationTests in 0.23 seconds (process running for 1.023)
+2023-04-01T17:43:28.606+10:00  INFO 28420 --- [    Test worker] e.cashcard.CashCardApplicationTests      : Starting CashCardApplicationTests using Java 20 with PID 28420 (started by blaketaylor in /Users/blaketaylor/Library/Code/spring-academy)
+2023-04-01T17:43:28.607+10:00  INFO 28420 --- [    Test worker] e.cashcard.CashCardApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-04-01T17:43:28.832+10:00  INFO 28420 --- [    Test worker] e.cashcard.CashCardApplicationTests      : Started CashCardApplicationTests in 0.234 seconds (process running for 1.027)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
